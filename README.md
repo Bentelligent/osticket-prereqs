@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/a/d83cM6z" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="[https://imgur.com/a/d83cM6z](https://imgur.com/bc0Gvhk)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To start the Installation process, we need to start at Microsoft Azure and create Virtual Machine (VM) that is able to handle the program we need to set up osTicket. It's preffered to use a Windows 10 VM with at least 4 virtual CPU's. A Username and Password has to be created to login the VM. Then, when all is set up and ready, Remote Desktop is fired up to connect to the Virtual Machine to start the Installation.
