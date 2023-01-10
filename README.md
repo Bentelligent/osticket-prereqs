@@ -23,13 +23,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Setup VMs with Microsoft Azure
-- Enable Remote Desktop 
+- Log in to Remote Desktop 
 - Enable IIS
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/bc0Gvhk" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/bc0Gvhk" height="80%" width="80%" alt="Setting up VM in Microsoft Azure"/>
 </p>
 <p>
 To start the Installation process, we need to start at Microsoft Azure and create Virtual Machine (VM) that is able to handle the program we need to set up osTicket. It's preffered to use a Windows 10 VM with at least 4 virtual CPU's. A Username and Password has to be created to login the VM. Then, when all is set up and ready, Remote Desktop is fired up to connect to the Virtual Machine to start the Installation.
@@ -37,7 +37,7 @@ To start the Installation process, we need to start at Microsoft Azure and creat
 <br />
 
 <p>
-<img src="https://imgur.com/a/jG9n3kl" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/jG9n3kl" height="80%" width="80%" alt="Remote Desktop Login"/>
 </p>
 <p>
 With the IP address entered into the Remote Desktop program, we login using the username and password we used to set up the VM.
@@ -45,7 +45,7 @@ With the IP address entered into the Remote Desktop program, we login using the 
 <br />
 
 <p>
-<img src="https://imgur.com/OFpk3N5" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/OFpk3N5" height="80%" width="80%" alt="Enabling IIS within the VM"/>
 </p>
 <p>
 After the login and basic setup on the Virtual Machine, we head into Control Panel -> Programs and Features and enable Internet Information Servies (or IIS) to ensure that osTicket is ready to run.
