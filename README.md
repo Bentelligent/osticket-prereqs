@@ -23,32 +23,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Setup VMs with Microsoft Azure
-- Enable IIS and MySQL
-- Create new users on osTicket
-- Go through the many features and uses of osTicket 
+- Enable Remote Desktop 
+- Enable IIS
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/d83cM6z" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To start the Installation process, we need to start at Microsoft Azure and create Virtual Machine (VM) that is able to handle the program we need to set up osTicket. It's preffered to use a Windows 10 VM with at least 4 virtual CPU's. A Username and Password has to be created to login the VM. Then, when all is set up and ready, Remote Desktop is fired up to connect to the Virtual Machine to start the Installation.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/jG9n3kl" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+With the IP address entered into the Remote Desktop program, we login using the username and password we used to set up the VM.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/OFpk3N5" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After the login and basic setup on the Virtual Machine, we head into Control Panel -> Programs and Features and enable Internet Information Servies (or IIS) to ensure that osTicket is ready to run.
 </p>
 <br />
